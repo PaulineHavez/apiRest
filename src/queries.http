@@ -1,0 +1,42 @@
+GET http://localhost:3000/
+
+###
+
+
+GET http://localhost:3000/data
+
+
+###
+
+
+GET http://localhost:3000/data/2
+
+
+###
+
+
+POST http://localhost:3000/newObject
+Content-Type: application/json
+
+{
+    "id": 5,
+    "name": "Jacket",
+    "color": "Blue",
+    "year": "9527"
+}
+
+###
+
+PUT http://localhost:3000/data/toModify/4
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "Black",
+    "color": "Pink",
+    "year": "1427"
+}
+
+###
+
+DELETE http://localhost:3000/data/toDelete/5
