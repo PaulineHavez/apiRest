@@ -20,7 +20,19 @@
   {
     "id": 4,
     "name": "Black",
-    "color": "Pink",
+    "color": "Red",
     "year": "1427"
+  },
+  {
+    "id": 5,
+    "name": "Jacket",
+    "color": "Blue",
+    "year": "9527"
+  },
+  {
+    "id": 6,
+    "name": "Jacket",
+    "color": "Blue",
+    "year": "9527"
   }
 ]
